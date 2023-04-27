@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncing ball</title>
+</head>
+<body>
+    <div id="ball">
+    </div>
+</body>
+<style>
+    #ball {
+        width: 590px;
+        height: 369px;
+        background-image: url("./bouncingBall.svg");
+        animation: animationMovement 4s steps(35) 0s infinite;
+        background-repeat: no-repeat;
+    
+
+    }
+    @keyframes animationMovement {
+        100% {
+            background-position: 0 -12903px;
+        }
+    }
+</style>
+</html>
