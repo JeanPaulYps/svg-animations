@@ -1,0 +1,1 @@
+#Person{animation:scaleElement 1s linear .5s infinite alternate}#Plant{transform-box:fill-box;transform-origin:center;animation:rotate 2s linear 0s infinite}@keyframes scaleElement{0%{transform:translate(-10px,-30px)}to{transform:translateY(20px)}}@keyframes rotate{to{rotate:1turn}}
