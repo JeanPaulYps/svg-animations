@@ -1,0 +1,23 @@
+#Person {
+    animation: scaleElement 1.0s linear 0.5s infinite alternate;
+}
+#Plant {
+    transform-box: fill-box;
+    transform-origin: center;
+    animation: rotate 2.0s linear 0s infinite;  
+}
+@keyframes scaleElement {
+    0% {
+        transform:  translate(-10px, -30px);
+
+    }
+    100% {
+        transform:   translate(0, 20px);
+    }
+}
+@keyframes rotate {
+  
+    100% {
+        rotate: 1turn;
+    }
+}

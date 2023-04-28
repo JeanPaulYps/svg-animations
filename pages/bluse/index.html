@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bluse</title>
+    <link rel="stylesheet" href="./index.css">
 </head>
 
 <body>
@@ -35,125 +36,5 @@
     </svg>
 
 </body>
-<style>
-    #Undershirt{
-        transform-box: fill-box;
-        transform-origin: top center;
-        animation: staggerRight 3s cubic-bezier(0,.52,1,.57) 0s infinite normal;
-    }
-    #Undershirt2{
-        transform-box: fill-box;
-        transform-origin: top center;
-        animation: staggerLeft 3s cubic-bezier(0,.52,1,.57) 0s infinite normal;
-        /* animation: ; */
-    }
-    #Bluse_2{
-        animation: changeColor1 3s ease-in 0s infinite normal;
-    }
-
-    @keyframes changeColor1 {
-        from, 40% {
-            fill: transparent;
-        }
-        60% , 75% {
-            fill: salmon;
-        }
-        80%, to {
-            fill: transparent;
-        }
-    }
-
-
-    @keyframes staggerLeft {
-        0% {
-            transform: rotate(0);
-            transform: translateX(0);
-        }
-        15% {
-            transform: rotate(5deg);
-        }
-        20% {
-            transform: rotate(-5deg);
-        }
-        25% {
-            transform: rotate(0) translateX(0);
-        }
-        30% {
-            transform: rotate(0) translateX(0);
-        }
-        40% {
-            transform: translateX(-140px) rotate(-2deg);
-        }
-        45% {
-            transform: translateX(-140px) rotate(5deg);
-        }
-        50% {
-            transform: translateX(-140px) rotate(-5deg);
-        }
-        60% {
-            transform: translateX(-140px) rotate(0);
-        }
-        65% {
-            transform: translateX(-140px) rotate(0);
-        }
-        75% {
-            transform: translateX(0) rotate(2deg);
-        }
-        80% {
-            transform: translateX(0) rotate(-5deg);
-        }
-        85% {
-            transform: translateX(0) rotate(5deg);
-        }
-        90% {
-            transform: translateX(0) rotate(0deg);
-        }
-    }
-    @keyframes staggerRight {
-        0% {
-            transform: rotate(0);
-            transform: translateX(0);
-        }
-        15% {
-            transform: rotate(-5deg);
-        }
-        20% {
-            transform: rotate(5deg);
-        }
-        25% {
-            transform: rotate(0) translateX(0);
-        }
-        30% {
-            transform: rotate(0) translateX(0);
-        }
-        40% {
-            transform: translateX(140px) rotate(2deg);
-        }
-        45% {
-            transform: translateX(140px) rotate(-5deg);
-        }
-        50% {
-            transform: translateX(140px) rotate(5deg);
-        }
-        60% {
-            transform: translateX(140px) rotate(0);
-        }
-        65% {
-            transform: translateX(140px) rotate(0);
-        }
-        75% {
-            transform: translateX(0) rotate(-2deg);
-        }
-        80% {
-            transform: translateX(0) rotate(5deg);
-        }
-        85% {
-            transform: translateX(0) rotate(-5deg);
-        }
-        90% {
-            transform: translateX(0) rotate(0deg);
-        }
-    }
-</style>
 </html>
 

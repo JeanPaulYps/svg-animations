@@ -19,5 +19,5 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "firstPage", "vite-env.d.ts"]
+  "include": ["src", "firstPage", "vite-env.d.ts", "pages"]
 }
