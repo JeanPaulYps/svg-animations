@@ -73,7 +73,7 @@
 }
 
 #outterCircle2 {
-    opacity: 0;
+    opacity: 0;;
     animation: rotate120deg 1.25s ease-out 1.5s normal forwards;
 }
 

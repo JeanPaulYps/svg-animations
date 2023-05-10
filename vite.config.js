@@ -3,7 +3,7 @@ import { globSync } from "glob";
 import { viteSingleFile } from "vite-plugin-singlefile";
 
 export default defineConfig({
-  plugins: [ viteSingleFile({useRecommendedBuildConfig: false })],
+  plugins: [],
   build: {
     outDir: "dist/",
     rollupOptions: {

@@ -8,11 +8,13 @@
     "dev": "vite",
     "build": "tsc && vite build --emptyOutDir",
     "preview": "vite preview",
-    "publish": "gh-pages -d dist/"
+    "publish": "gh-pages -d dist/",
+    "serve": "serve dist/"
   },
   "devDependencies": {
     "gh-pages": "^5.0.0",
     "glob": "^10.2.2",
+    "serve": "^14.2.0",
     "typescript": "^5.0.2",
     "vite": "^4.3.0",
     "vite-plugin-singlefile": "^0.13.5"
