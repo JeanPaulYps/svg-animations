@@ -1,0 +1,26 @@
+#Pear {
+  visibility: hidden;
+}
+
+#Tip {
+  /* opacity: 0; */
+  /* visibility: hidden; */
+  stroke-dasharray: 30;
+  stroke-dashoffset: 30;
+  animation: dash 2s linear forwards;
+  animation-delay: 0.5s;
+}
+
+@keyframes dash {
+  from {
+    stroke-dashoffset: 30;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+svg {
+    width: 500px;
+    height: auto;
+}
