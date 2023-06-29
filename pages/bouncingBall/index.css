@@ -1,0 +1,14 @@
+#ball {
+    width: 590px;
+    height: 369px;
+    background-image: url("./bouncingBall.svg");
+    animation: animationMovement 4s steps(35) 0s infinite;
+    background-repeat: no-repeat;
+
+
+}
+@keyframes animationMovement {
+    100% {
+        background-position: 0 -12903px;
+    }
+}

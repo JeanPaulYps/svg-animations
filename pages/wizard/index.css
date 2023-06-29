@@ -1,0 +1,18 @@
+body {
+    background-color: #3a4041;
+}
+#window {
+    height: 80px;
+    width: 80px;
+    background-image: url("wizard.png");
+    animation: animationMovement 1s steps(9) 0s infinite;
+    background-repeat: no-repeat;
+    transform: translate(200px, 200px) scale(6);
+    
+}
+
+@keyframes animationMovement {
+    100% {
+        background-position: 100% 0;
+    }
+}

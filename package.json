@@ -1,0 +1,26 @@
+{
+  "name": "svg-animations",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "homepage": "https://jeanpaulyps.github.io/svg-animations/",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build --emptyOutDir",
+    "preview": "vite preview",
+    "publish": "gh-pages -d dist/",
+    "serve": "serve dist/"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "glob": "^10.2.2",
+    "serve": "^14.2.0",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.0",
+    "vite-plugin-singlefile": "^0.13.5"
+  },
+  "dependencies": {
+    "gsap": "^3.11.5",
+    "kute.js": "^2.2.4"
+  }
+}
